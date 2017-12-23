@@ -47,7 +47,7 @@ public class TestController {
     public String jdbcTest(){
         System.out.println("TestController.jdbcTest");
         Cat name = jdbcTemplateDao.getCatByJdbc("zzz");
-
+        System.out.println(1/0);
         return "ssss" +name;
     }
 }
