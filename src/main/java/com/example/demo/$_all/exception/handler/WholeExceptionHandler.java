@@ -19,7 +19,7 @@ public class WholeExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public String defaultExceptionHandler(HttpServletRequest request, Exception runtime ) {
-
+        runtime.printStackTrace();
         System.out.println("WholeExceptionHandler.allProjectExceptionHandler");
         return "this is all project exceptonal handler = ";
     }
