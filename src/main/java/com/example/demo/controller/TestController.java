@@ -1,7 +1,8 @@
-package com.example.demo;
+package com.example.demo.controller;
 
-import com.example.demo.repository.$1_data.ICatRepository;
-import com.example.demo.repository.$2_jdbc.JdbcTemplateDao;
+import com.example.demo.$1_repository.$1_data.ICatRepository;
+import com.example.demo.$1_repository.$2_jdbc.JdbcTemplateDao;
+import com.example.demo.Cat;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -47,7 +48,7 @@ public class TestController {
     public String jdbcTest(){
         System.out.println("TestController.jdbcTest");
         Cat name = jdbcTemplateDao.getCatByJdbc("zzz");
-        System.out.println(1/0);
+//        System.out.println(1/0);
         return "ssss" +name;
     }
 }

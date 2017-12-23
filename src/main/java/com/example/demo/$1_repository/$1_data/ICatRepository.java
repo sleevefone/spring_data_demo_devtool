@@ -1,4 +1,4 @@
-package com.example.demo.repository.$1_data;
+package com.example.demo.$1_repository.$1_data;
 
 
 import com.example.demo.Cat;

@@ -15,7 +15,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.9.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from $1_repository -->
     </parent>
 
     <properties>
@@ -58,6 +58,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <!--加了版本号报错,我曹,巨坑-->
             <!--<version>5.1.1</version>-->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>1.5.3.RELEASE</version>
         </dependency>
 
     </dependencies>

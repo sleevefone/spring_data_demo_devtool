@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.Cat;
-import com.example.demo.repository.$1_data.ICatRepository;
+import com.example.demo.$1_repository.$1_data.ICatRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
