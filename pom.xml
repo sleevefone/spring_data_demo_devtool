@@ -56,6 +56,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <!--加了版本号报错,我曹,巨坑-->
             <!--<version>5.1.1</version>-->
         </dependency>
 
