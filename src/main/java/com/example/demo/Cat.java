@@ -11,7 +11,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Cat {
-
+//
     @Id
     @GeneratedValue
     private Integer id;
@@ -41,5 +41,11 @@ public class Cat {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public static void main(String[] args) {
+
+
+
     }
 }
