@@ -1,4 +1,4 @@
-package com.example.demo.repository.data;
+package com.example.demo.$_all.exception.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

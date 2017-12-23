@@ -1,7 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.repository.data.ICatRepository;
-import com.example.demo.repository.jdbc.JdbcTemplateDao;
+import com.example.demo.repository.$1_data.ICatRepository;
+import com.example.demo.repository.$2_jdbc.JdbcTemplateDao;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.example.demo.repository.jdbc;
+package com.example.demo.repository.$2_jdbc;
 
 import com.example.demo.Cat;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
